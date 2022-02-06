@@ -1,0 +1,8 @@
+@font-face {
+  font-family: ricky_morty_font;
+  src: url('../assets/WubbaLubbaDubDub.ttf');
+}
+
+.title {
+  font-family: ricky_morty_font;
+}
