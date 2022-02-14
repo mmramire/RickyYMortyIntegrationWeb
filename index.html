@@ -4,48 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Ricky&Morti APP</title>
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a class="header__link" href="#">Logo</a>
-        <ul class="header__list">
-          <li>
-            <a
-              class="header__link"
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            ></a
-            >Doc
-          </li>
-          <li>
-            <a
-              class="header__link"
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            ></a
-            >About
-          </li>
-          <li>
-            <a
-              class="header__link"
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            ></a
-            >Help US
-          </li>
-        </ul>
-      </nav>
+      <div class="container logo-nav-container">
+        <a class="logo" href="#">Logo</a>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">Doc</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">About</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">Help US</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+    <h1 class="title">Ricky & Morti APP</h1>
+
     <main class="container">
-      <section>
-        <h1>Ricky & Morti APP</h1>
-      </section>
       <!-- Arranca los datos de las tarjetas -->
       <section class="character__wrapper">
         <article class="character__image">
@@ -57,11 +42,11 @@
             <p>Dead-Human</p>
           </div>
           <div>
-            <h5>Last knownw locations</h5>
+            <h4>Last knownw locations</h4>
             <p>Interdimensional Cable</p>
           </div>
           <div>
-            <h5>First seen in:</h5>
+            <h4>First seen in:</h4>
             <p>Interdimensional Cable 2: tempting Fate</p>
           </div>
         </article>
